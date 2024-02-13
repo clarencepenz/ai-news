@@ -18,7 +18,11 @@ function Footer() {
           <p className="mb-4 text-evfy-neutral-100 leading-6 tracking-wide font-normal">
             {footerMenu.main.desc}
           </p>
-          <Button variant="primary" size="medium" className="transition-colors hover:text-white">
+          <Button
+            variant="primary"
+            size="medium"
+            className="transition-colors hover:text-white"
+          >
             {footerMenu.main.ctaText}
           </Button>
         </div>
@@ -36,7 +40,7 @@ function Footer() {
                   <Link
                     key={el}
                     href="#news"
-                    className="py-2 whitespace-nowrap text-sm font-normal leading-5 tracking-wide text-evfy-neutral-300 transition-colors hover:text-evfy-primary/80 cursor-pointer"
+                    className="py-2 whitespace-nowrap text-sm font-normal leading-5 tracking-wide text-evfy-neutral-300 transition-colors hover:text-evfy-primary/80 hover:underline cursor-pointer"
                   >
                     {el}
                   </Link>

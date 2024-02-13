@@ -15,11 +15,11 @@ function RecentArticles() {
       </h3>
 
       {articlesData
-        .filter((item) => item.slug !== params.slug)
+        .filter((item) => item.slug !== params.slug) // filter out the article currently displayed from the related article section
         .map((item, index) => (
           <div key={item.slug}>
             <RelatedArticleCard data={item} />
-            {index !== articlesData.length - 2 && (
+            {index !== articlesData.length - 2 && ( // prevent the separator from showing at the bottom of the last article card
               <Separator className="bg-evfy-neutral-400/50 h-[0.5px] my-7" />
             )}
           </div>

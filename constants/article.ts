@@ -19,6 +19,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat faucibus id vitae 
 
 
 // data for multiple articles
+// created a helper function PREVIEW_IMAGE to reduce typing paths to image assets
 const articlesData: ArticlesProps[] = [
   {
     "slug": "consectetur-adipiscing",

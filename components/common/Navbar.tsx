@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 
 import Link from "next/link";
 import { useMedia } from "react-use";
@@ -21,7 +21,7 @@ function Navbar() {
   const isMobile = useMedia("(max-width: 1024px)", false);
   const [menuOpen, setMenuOpen] = React.useState(false);
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (!isMobile) {
       setMenuOpen(false);
     }
