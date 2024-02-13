@@ -18,7 +18,7 @@ function HomePage() {
             Explore
           </Button>
         </Link>
-        <Link href="/news">
+        <Link href="/news" className="hidden md:block">
           <Button variant="secondary" size="medium">
             View More
           </Button>

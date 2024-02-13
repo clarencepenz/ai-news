@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Custom404() {
   return (
     <div className="container-screen h-screen flex justify-center items-center">

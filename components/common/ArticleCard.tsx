@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 
 import Image from "next/image";
 import PREVIEW_IMAGE from "@/utils/image";

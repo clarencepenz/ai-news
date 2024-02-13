@@ -1,4 +1,5 @@
 import React from "react";
+
 import Link from "next/link";
 import { LOGO } from "@/svg";
 import footerMenu from "@/constants/footer";

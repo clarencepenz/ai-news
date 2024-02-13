@@ -5,7 +5,7 @@ import articlesData from "@/constants/article";
 
 function OtherArticles() {
   return (
-    <section id="articles-you-may-like" className="bg-evfy-neutral-200 py-32 ">
+    <section id="articles-you-may-like" className="bg-evfy-neutral-200 py-24">
       <div className="container-screen">
         <h3 className="text-3xl md:text-4xl text-evfy-neutral-600 font-semibold">
           Articles You May Like
