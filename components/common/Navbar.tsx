@@ -30,11 +30,7 @@ function Navbar() {
   return (
     <nav className="container-screen  h-16 flex items-center justify-between">
       <EVFYLogo />
-      <div
-        className={cn(
-          "justify-between items-center hidden lg:flex",
-        )}
-      >
+      <div className={cn("justify-between items-center hidden lg:flex")}>
         <div className="flex items-center">
           <Link
             href="/"
@@ -66,11 +62,13 @@ function Navbar() {
             "slide-in-from-top-full top-0": menuOpen,
             "slide-out-to-top-full -top-[130%]": !menuOpen,
           },
-          "fixed z-50 left-0 right-0 min-h-screen bg-white px-4  py-8 lg:relative lg:left-[unset] lg:right-[unset] lg:min-h-[unset] lg:p-0 ",
+          "fixed z-50 left-0 right-0 min-h-screen bg-white px-4  py-8 lg:relative lg:left-[unset] lg:right-[unset] lg:min-h-[unset] lg:p-0 "
         )}
       >
         <div className="w-full pb-4  flex justify-between items-center">
-          <EVFYLogo />
+          <Link href="/" onClick={() => setMenuOpen((prev) => !prev)}>
+            <EVFYLogo />
+          </Link>
           <Button
             size="icon"
             className=" bg-transparent text-black"
@@ -84,6 +82,7 @@ function Navbar() {
         <div className="flex flex-col items-start">
           <Link
             href="/"
+            onClick={() => setMenuOpen((prev) => !prev)}
             className="block text-evfy-neutral-300 font-semibold leading-5 select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
           >
             Log In / Sign Up
