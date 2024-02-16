@@ -30,7 +30,8 @@ function MainNews({ article_data }: NewsProp) {
             alt={article_data.title}
             height={448}
             width={760}
-            className="mb-4 mt-10"
+            className="mb-4 mt-10 h-full w-full"
+            priority
           />
           <small className="text-evfy-neutral-300 leading-6 tracking-wider">
             {article_data.alt}

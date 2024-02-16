@@ -3,7 +3,7 @@
 import React from "react";
 import { useParams } from "next/navigation";
 import MainNews from "@/app/news/components/main-news";
-import articlesData from "@/constants/article";
+import articlesData from "@/constants/data.json";
 
 function Page() {
   const params = useParams();

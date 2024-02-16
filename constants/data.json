@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "consectetur-adipiscing",
+    "coverImage": "/assets/images/image_one.webp",
+    "title": "AI to run on all ants half of all new vehicles lorem ipsum",
+    "alt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat faucibus id vitae suspendisse. Ipsum erat malesuada sit faucibus faucibus massa. Mauris et morbi vitae habitant sit. Maecenas pretium in consectetur velit auctor. Porttitor tellus ut pretium, scelerisque orci erat. Etiam imperdiet ridiculus eu tincidunt. Vel dui, pulvinar vivamus lorem risus.</p><br/><p>Bibendum aliquet adipiscing sed interdum. Arcu consequat fames blandit nisi. Vulputate dignissim tempus duis ultrices. Arcu sed porttitor morbi lobortis mattis pellentesque. Dui quam sed eu ultrices ut nullam. Maecenas tortor auctor eros erat volutpat sapien dui pretium.</p><br/><p>Hac sed diam tristique in consequat in suspendisse habitant. Et mauris venenatis posuere auctor tortor, placerat. Quisque tincidunt euismod dictum neque, massa nisi. Sagittis, dictum nibh bibendum cursus neque, nunc molestie. Odio viverra sagittis, platea nibh eget. Egestas a cras bibendum amet, mi magna cursus. Ante suscipit felis vitae amet.</p>",
+    "tag": "news",
+    "created_at": "September 21, 2021",
+    "is_featured": true
+  },
+  {
+    "slug": "lorem-consectetur-adipiscing",
+    "coverImage": "/assets/images/main_cover_image.webp",
+    "title": "By 2030 AI to run on all ants half of all new vehicles lorem ipsum",
+    "alt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat faucibus id vitae suspendisse. Ipsum erat malesuada sit faucibus faucibus massa. Mauris et morbi vitae habitant sit. Maecenas pretium in consectetur velit auctor. Porttitor tellus ut pretium, scelerisque orci erat. Etiam imperdiet ridiculus eu tincidunt. Vel dui, pulvinar vivamus lorem risus.</p><br/><p>Bibendum aliquet adipiscing sed interdum. Arcu consequat fames blandit nisi. Vulputate dignissim tempus duis ultrices. Arcu sed porttitor morbi lobortis mattis pellentesque. Dui quam sed eu ultrices ut nullam. Maecenas tortor auctor eros erat volutpat sapien dui pretium.</p><br/><p>Hac sed diam tristique in consequat in suspendisse habitant. Et mauris venenatis posuere auctor tortor, placerat. Quisque tincidunt euismod dictum neque, massa nisi. Sagittis, dictum nibh bibendum cursus neque, nunc molestie. Odio viverra sagittis, platea nibh eget. Egestas a cras bibendum amet, mi magna cursus. Ante suscipit felis vitae amet.</p>",
+    "tag": "news",
+    "created_at": "September 21, 2021",
+    "is_featured": false
+  },
+  {
+    "slug": "ipsum-consectetur-adipiscing",
+    "coverImage": "/assets/images/image_one.webp",
+    "title": "Batteries stay fully charge for 9 hours on all vehicles lorem ipsum",
+    "alt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat faucibus id vitae suspendisse. Ipsum erat malesuada sit faucibus faucibus massa. Mauris et morbi vitae habitant sit. Maecenas pretium in consectetur velit auctor. Porttitor tellus ut pretium, scelerisque orci erat. Etiam imperdiet ridiculus eu tincidunt. Vel dui, pulvinar vivamus lorem risus.</p><br/><p>Bibendum aliquet adipiscing sed interdum. Arcu consequat fames blandit nisi. Vulputate dignissim tempus duis ultrices. Arcu sed porttitor morbi lobortis mattis pellentesque. Dui quam sed eu ultrices ut nullam. Maecenas tortor auctor eros erat volutpat sapien dui pretium.</p><br/><p>Hac sed diam tristique in consequat in suspendisse habitant. Et mauris venenatis posuere auctor tortor, placerat. Quisque tincidunt euismod dictum neque, massa nisi. Sagittis, dictum nibh bibendum cursus neque, nunc molestie. Odio viverra sagittis, platea nibh eget. Egestas a cras bibendum amet, mi magna cursus. Ante suscipit felis vitae amet.</p>",
+    "tag": "news",
+    "created_at": "September 21, 2021",
+    "is_featured": false
+  },
+  {
+    "slug": "ipsum-consectetur-adipiscing-s",
+    "coverImage": "/assets/images/main_cover_image.webp",
+    "title": "The CEO wants half of all new span vehicles lorem ipsum",
+    "alt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat faucibus id vitae suspendisse. Ipsum erat malesuada sit faucibus faucibus massa. Mauris et morbi vitae habitant sit. Maecenas pretium in consectetur velit auctor. Porttitor tellus ut pretium, scelerisque orci erat. Etiam imperdiet ridiculus eu tincidunt. Vel dui, pulvinar vivamus lorem risus.</p><br/><p>Bibendum aliquet adipiscing sed interdum. Arcu consequat fames blandit nisi. Vulputate dignissim tempus duis ultrices. Arcu sed porttitor morbi lobortis mattis pellentesque. Dui quam sed eu ultrices ut nullam. Maecenas tortor auctor eros erat volutpat sapien dui pretium.</p><br/><p>Hac sed diam tristique in consequat in suspendisse habitant. Et mauris venenatis posuere auctor tortor, placerat. Quisque tincidunt euismod dictum neque, massa nisi. Sagittis, dictum nibh bibendum cursus neque, nunc molestie. Odio viverra sagittis, platea nibh eget. Egestas a cras bibendum amet, mi magna cursus. Ante suscipit felis vitae amet.</p>",
+    "tag": "news",
+    "created_at": "September 21, 2021",
+    "is_featured": true
+  }
+]

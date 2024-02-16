@@ -1,7 +1,7 @@
 import React from "react";
 import ArticleCard from "@/components/common/ArticleCard";
 import Link from "next/link";
-import articlesData from "@/constants/article";
+import articlesData from "@/constants/data.json";
 
 function OtherArticles() {
   return (

@@ -24,7 +24,6 @@ const DEFAULT_METADATA: Metadata = {
     "/android-chrome-192x192.png",
     "/android-chrome-512x512.png",
   ],
-  manifest: "/manifest.json",
   openGraph: {
     type: "website",
     locale: "en_US",

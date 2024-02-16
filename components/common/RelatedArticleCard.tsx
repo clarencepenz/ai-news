@@ -19,6 +19,7 @@ export default function RelatedArticleCard({ data }: CardProps) {
             alt={data.title}
             height={78}
             width={78}
+            className="h-full w-full"
           />
         </div>
         <figcaption className="px-0 py-0 block">

@@ -9,9 +9,13 @@ import { LOGO } from "@/svg";
 import cn from "@/lib/utils";
 import Button from "./Button";
 
-function EVFYLogo() {
+type LinkProp = {
+  onClick?: () => void;
+};
+
+function EvfyLogo({ onClick }: LinkProp) {
   return (
-    <Link href="/">
+    <Link href="/" onClick={onClick}>
       <LOGO />
     </Link>
   );
@@ -29,7 +33,7 @@ function Navbar() {
 
   return (
     <nav className="container-screen  h-16 flex items-center justify-between">
-      <EVFYLogo />
+      <EvfyLogo />
       <div className={cn("justify-between items-center hidden lg:flex")}>
         <div className="flex items-center">
           <Link
@@ -66,9 +70,7 @@ function Navbar() {
         )}
       >
         <div className="w-full pb-4  flex justify-between items-center">
-          <Link href="/" onClick={() => setMenuOpen((prev) => !prev)}>
-            <EVFYLogo />
-          </Link>
+          <EvfyLogo onClick={() => setMenuOpen((prev) => !prev)} />
           <Button
             size="icon"
             className=" bg-transparent text-black"

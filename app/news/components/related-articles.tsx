@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { ArrowLeft } from "@/svg";
 import RelatedArticleCard from "@/components/common/RelatedArticleCard";
-import articlesData from "@/constants/article";
+import articlesData from "@/constants/data.json";
 import Separator from "@/components/common/Separator";
 
 function RecentArticles() {
