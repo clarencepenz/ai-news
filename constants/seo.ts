@@ -8,14 +8,14 @@ const DEFAULT_METADATA: Metadata = {
   title: "EVFY - Track recent news",
   description: "Track recent news",
   authors: {
-    name: "EVFY",
+    name: "EVFY O",
     url: WEB_APP_URL,
   },
   generator: "Next.js",
   keywords: SEO_KEYWORDS,
   referrer: "origin-when-cross-origin",
-  creator: "EVFY",
-  publisher: "EVFY",
+  creator: "EVFY J",
+  publisher: "EVFY K",
   icons: [
     "/favicon.ico",
     "/favicon-16x16.png",
@@ -28,7 +28,7 @@ const DEFAULT_METADATA: Metadata = {
     type: "website",
     locale: "en_US",
     url: WEB_APP_URL,
-    siteName: "EVFY",
+    siteName: "EVFY X",
     title: "EVFY - News Network",
     description:
       "EVFY: Track recent news. Elevate News tracking with EVFY's user-friendly platform. Try it now!",
@@ -45,7 +45,7 @@ const DEFAULT_METADATA: Metadata = {
     creator: "@EVFY",
     title: "EVFY - News Network",
     description: "Track recent news 💼💡 #EVFY #NEWS #NewsSimplified",
-    site: "@EVFY",
+    site: "@EVFY V",
     card: "summary_large_image",
     images: [
       {
