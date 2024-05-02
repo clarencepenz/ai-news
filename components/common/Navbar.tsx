@@ -84,13 +84,14 @@ function Navbar() {
         <div className="flex flex-col items-start gap-4" />
 
         <div className="flex flex-col items-start">
-          <Link
+        <DynamicWidget />
+          {/* <Link
             href="/"
             onClick={() => setMenuOpen((prev) => !prev)}
             className="block text-evfy-neutral-300 font-semibold leading-5 select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
           >
             Log In / Sign Up
-          </Link>
+          </Link> */}
         </div>
       </div>
     </nav>
