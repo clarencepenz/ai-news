@@ -8,6 +8,7 @@ import { MenuIcon, XIcon } from "lucide-react";
 import { LOGO } from "@/svg";
 import cn from "@/lib/utils";
 import Button from "./Button";
+import { DynamicWidget } from "@dynamic-labs/sdk-react-core";
 
 type LinkProp = {
   onClick?: () => void;
@@ -36,12 +37,13 @@ function Navbar() {
       <EvfyLogo />
       <div className={cn("justify-between items-center hidden lg:flex")}>
         <div className="flex items-center">
-          <Link
+          <DynamicWidget />
+          {/* <Link
             href="/"
             className="block text-evfy-neutral-300 font-semibold leading-5 select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
           >
             Log In / Sign Up
-          </Link>
+          </Link> */}
         </div>
       </div>
 
