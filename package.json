@@ -19,7 +19,7 @@
     "react-icons": "^5.0.1",
     "react-use": "^17.5.0",
     "tailwind-merge": "^2.2.1",
-    "tailwindcss-animate": "^1.0.7",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.3.0",
