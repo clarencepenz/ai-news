@@ -2,10 +2,8 @@
 import React from "react";
 import Link from "next/link";
 import Button from "@/components/common/Button";
-import { useAccount } from "wagmi";
 
 function HomePage() {
-  const { address, isConnected, chain, connector } = useAccount();
 
   return (
     <section className="container-screen flex flex-col items-center justify-center gap-4 mb-8 h-screen">
@@ -16,11 +14,6 @@ function HomePage() {
       <p className="text-evfy-neutral-300 leading-6 tracking-wider">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>
-      <div>
-        <p>wagmi connected: {isConnected ? "true" : "false"}</p>
-        <p>wagmi address: {address}</p>
-        <p>wagmi network: {chain?.id}</p>
-      </div>
       <div className="flex flex-col md:flex-row gap-4 mt-4">
         <Link href="#articles-you-may-like">
           <Button size="medium" variant="primary">
